@@ -8,13 +8,7 @@ const throttle = (func, wait = 0) => {
     }
   };
 };
-/**
- * @param {Function} func
- * @param {number} wait
- * @param {Object} options
- * @param {boolean} [options.leading=false] 
- * @param {boolean} [options.trailing=false]
- */
+
 const opThrottle = (
   func,
   wait = 0,
